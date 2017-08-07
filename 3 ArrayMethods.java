@@ -28,8 +28,8 @@ public class ArrayMethods {
 		// Arrays.toString();
 		// Arrays.sort(array1);
 
-		// Arrays.equals(a1,a2);
-		// Arrays.deepEquals(a1, a2);
+		// Arrays.equals(a1,a2); -- copies only references of nested arrays
+		// Arrays.deepEquals(a1, a2); -- creats new copies of even nested arrays
 		// http://www.tothenew.com/blog/array-comparison-use-equals-or-deepequals/
 
 		if (Arrays.equals(array1, array2))
